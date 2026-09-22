@@ -1,48 +1,87 @@
-# 『신약임상개발 — FDA 허가제도의 필수 지도』 웹 자료실
+# Essentials of Clinical Drug Development: Regulatory Perspectives — online appendix
 
-단행본 **『신약임상개발 — FDA 허가제도의 필수 지도』** (*Essentials of Clinical Drug Development: Regulatory Perspectives*)의 온라인 부록입니다. 책의 각 장 끝 "더 보기" 박스(QR)가 가리키는 곳이 이 저장소입니다.
+*한국어 자료실 안내는 [README.ko.md](README.ko.md) 에 있습니다.*
 
-## 이 자료실이 하는 일
+This is the online appendix to 『신약임상개발 — FDA 허가제도의 필수 지도』
+(*Essentials of Clinical Drug Development: Regulatory Perspectives*) by
+Kyun-Seop Bae. The QR code in the "더 보기" box at the end of each chapter of
+the book points here.
 
-책은 **기준일(2026-08) 현재의 확정 규정**만 본문에 담습니다. 그 원칙을 지키려면 두 가지가 밖에 있어야 합니다.
+> **The material in this repository is written in Korean.** Unlike the code
+> repositories of the other books in the series, there is nothing
+> language-neutral here — it is prose and link lists, not code. What follows
+> tells you what is in it, so that you can decide whether a translation is
+> worth your while.
 
-1. **원전으로 가는 길** — 각 장이 인용한 가이던스·규칙·판례의 전 목록과 직링크. 책의 서술 원칙대로 **현행 확정 문서**와 **draft·계류 문서**를 나누어 싣습니다.
-2. **바뀌는 것** — 기준일 이후의 개정, 갱신되는 통계, 최종화되는 draft. 무엇이 언제 왜 바뀌었는지는 이 저장소의 커밋 이력에 남습니다.
+## What this appendix is for
 
-여기에 본문에 넣기엔 긴 **실무 점검표**를 더했습니다(3·4·7·8·15·16·17장).
+The book states only the **rules that were final as of its cut-off date,
+2026-08**. Holding to that leaves two things that have to live outside the
+printed page.
 
-오류 제보·개정 제안은 [Issues](../../issues)로 부탁드립니다.
+1. **The way back to the sources.** Every guidance, rule and case the book
+   cites, listed with a direct link, and, following the book's own convention,
+   **current final documents kept separate from drafts and pending ones**.
+2. **What changes.** Amendments after the cut-off date, statistics as they are
+   updated, drafts as they are finalised. What changed, when and why is in this
+   repository's commit history.
 
-## 장별 자료실
+To that are added the **practical checklists** that were too long for the book
+(chapters 3, 4, 7, 8, 15, 16, 17).
 
-| 장 | 제목 | 담긴 것 |
+Corrections and suggestions are welcome in [Issues](../../issues).
+
+## The chapters
+
+Each file is that chapter's source list; most of the sources themselves are FDA
+and Federal Register documents in English.
+
+| Ch | Title | Contents |
 |---|---|---|
-| [1장](ch01.md) | 미국 의약품 허가제도 개관 | 장별 안내·법제사 원전 |
-| [2장](ch02.md) | FDA의 조직·재정·자문위원회 | 인용 문서 5건 |
-| [3장](ch03.md) | 비임상 개발과 GLP | 인용 문서 15건 · **비임상 패키지 갭 분석 점검표** |
-| [4장](ch04.md) | IND와 FDA 상호작용 | 인용 문서 9건 · **IND 제출 전 점검표 · clinical hold 대응** |
-| [5장](ch05.md) | 임상개발 전략과 임상약리 | 인용 문서 30건 |
-| [6장](ch06.md) | 시험설계와 유효성 근거 기준 | 인용 문서 26건 |
-| [7장](ch07.md) | GCP·임상시험 수행·BIMO 실사 | 인용 문서 18건 · **483 대응 구조 · ALCOA-C 점검표 · 국내 기관 실사 대비** |
-| [8장](ch08.md) | NDA/BLA와 eCTD | 인용 문서 8건 · **제출 전 형식 점검표** |
-| [9장](ch09.md) | 심사 과정 | 인용 문서 11건 |
-| [10장](ch10.md) | 신속 프로그램과 시판 전 접근 | 인용 문서 12건 |
-| [11장](ch11.md) | 희귀의약품과 소아 개발 | 인용 문서 14건 |
-| [12장](ch12.md) | 바이오·세포유전자치료·바이오시밀러 | 인용 문서 10건 |
-| [13장](ch13.md) | 제네릭·505(b)(2)와 독점권 | 인용 문서 14건 · GDUFA III·Pre-ANDA·DMF·TE 코드 링크 |
-| [14장](ch14.md) | 시판 후 안전성 | 인용 문서 18건 |
-| [15장](ch15.md) | 품질·제조와 수명주기 | 인용 문서 12건 · **상시 수검 태세 점검표 · 변경 범주 판단** |
-| [16장](ch16.md) | 의약품 광고와 판촉의 규제 | 인용 문서 10건 · **판촉물 내부 심의 점검표 · 허가 범위 밖 정보의 전달** |
-| [17장](ch17.md) | 한·미 비교 총괄과 진출 전략 | **진출 시점별 점검표 · 자주 나오는 착오 다섯** |
+| [1](ch01.md) | The US drug approval system in outline | chapter guide, sources on the legislative history |
+| [2](ch02.md) | FDA: organisation, funding, advisory committees | 5 documents |
+| [3](ch03.md) | Nonclinical development and GLP | 15 documents · **nonclinical package gap analysis** |
+| [4](ch04.md) | The IND and interactions with FDA | 9 documents · **pre-IND checklist · responding to a clinical hold** |
+| [5](ch05.md) | Clinical development strategy and clinical pharmacology | 30 documents |
+| [6](ch06.md) | Trial design and the standard of evidence for efficacy | 26 documents |
+| [7](ch07.md) | GCP, trial conduct, BIMO inspections | 18 documents · **structure of a 483 response · ALCOA-C checklist · preparing for a Korean inspection** |
+| [8](ch08.md) | The NDA/BLA and eCTD | 8 documents · **pre-submission format checklist** |
+| [9](ch09.md) | The review process | 11 documents |
+| [10](ch10.md) | Expedited programmes and pre-approval access | 12 documents |
+| [11](ch11.md) | Orphan drugs and paediatric development | 14 documents |
+| [12](ch12.md) | Biologics, cell and gene therapy, biosimilars | 10 documents |
+| [13](ch13.md) | Generics, 505(b)(2) and exclusivity | 14 documents · GDUFA III, Pre-ANDA, DMF, TE codes |
+| [14](ch14.md) | Post-marketing safety | 18 documents |
+| [15](ch15.md) | Quality, manufacturing and lifecycle | 12 documents · **inspection-readiness checklist · classifying a change** |
+| [16](ch16.md) | Regulation of drug advertising and promotion | 10 documents · **internal review checklist for promotional material · communicating off-label information** |
+| [17](ch17.md) | Korea–US comparison and a market-entry strategy | **checklists by stage of entry · five common misconceptions** |
 
-책의 각 장 끝 "더 보기" 박스의 QR은 이 저장소(`github.com/AMC-CPT/CDD`)로 연결됩니다. 위 표에서 해당 장을 고르십시오.
+## What is coming
 
-## 갱신 예정
+- the full Korea–US correspondence table (Ch 17), and a timeline of FDA
+  approvals held by Korean companies
+- current figures for the statistics that are updated (approval counts,
+  inspection outcomes, designation statistics)
+- tracking of pending documents as they are finalised — in particular
+  FDAMA 3.0, PDUFA VIII, ICH Q1, the biosimilar CES reform, and the resumption
+  of CRL publication
 
-- 한·미 제도 대응표 전체판(17장) · 한국 기업 FDA 승인 연표
-- 갱신형 통계(승인 건수·실사 실적·지정 통계)의 최신치
-- 계류 문서의 최종화 추적 — 특히 FDAMA 3.0, PDUFA VIII, ICH Q1, 바이오시밀러 CES 개편, CRL 공개 재개
+## Copyright
 
-## 저작권
+The content of this repository is licensed **CC BY-NC-ND 4.0**: sharing for
+non-commercial purposes with attribution is free, and commercial use and
+derivative works are not permitted. See [LICENSE.md](LICENSE.md). The official
+documents linked from here — FDA, the Federal Register and so on — follow each
+agency's own public-domain or copyright policy.
 
-이 저장소의 콘텐츠는 **CC BY-NC-ND 4.0** 라이선스로 제공됩니다 — 출처 표시 시 비영리 목적의 공유는 자유이며, 상업적 이용과 변형은 금지됩니다. 상세는 [LICENSE.md](LICENSE.md)를 참조하십시오. 링크된 FDA·연방관보 등 공식 문서는 각 기관의 퍼블릭 도메인/저작권 정책을 따릅니다.
+## The other books in the series
+
+Those are code repositories, and their code, output, figures and data are
+usable without Korean.
+
+| | |
+|---|---|
+| 1 Scientific Computation with R | <https://github.com/AMC-CPT/SciCompR> |
+| 2 Scientific Inference in Clinical Trials with R | <https://github.com/AMC-CPT/CTDA> |
+| 3 Pharmacokinetics with R | <https://github.com/AMC-CPT/PKwR> |
+| 4 Pharmacometrics with NONMEM and R | <https://github.com/AMC-CPT/PMx> |
